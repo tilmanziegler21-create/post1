@@ -21,32 +21,7 @@ admin_env = os.getenv("ADMIN_USER_IDS", "7868363667")
 ADMIN_USER_IDS: Set[int] = {int(x) for x in admin_env.split(",") if x.strip()}
 
 CITY_CONFIG = {
-    "muc": {"title": "Мюнхен", "channel_id": -1002219465811},
-    "augs": {"title": "Аугсбург", "channel_id": -1002981130084},
-    "ulm": {"title": "Ульм", "channel_id": -1003498951036},
-    "bhv": {"title": "Бремерхафен", "channel_id": -1002371775576},
-    "freib": {"title": "Фрайбург", "channel_id": -1002271961159},
-    "fulda": {"title": "Фульда", "channel_id": -1002850532206},
-    "kiel": {"title": "Киль", "channel_id": -1002869339962},
-    "ing": {"title": "Ингольштадт", "channel_id": -1002729434772},
-    "old": {"title": "Ольденбург", "channel_id": -1002261517622},
-    "sb": {"title": "Саарбрюкен", "channel_id": -1002425353443},
-    "reg": {"title": "Регенсбург", "channel_id": -1002824918500},
-    "lue": {"title": "Любек", "channel_id": -1002728230169},
-    "mag": {"title": "Магдебург", "channel_id": -1003583811847},
-    "str": {"title": "Штутгарт", "channel_id": -1002800255602},
-    "ks": {"title": "Кассель", "channel_id": -1002656196874},
-    "leip": {"title": "Лейпциг", "channel_id": -1002835449921},
-    "bre": {"title": "Бремен", "channel_id": -1002877691247},
-    "hh": {"title": "Гамбург", "channel_id": -1003666199517},
-    "nue": {"title": "Нюрнберг", "channel_id": -1002741882907},
-    "wib": {"title": "Висбаден", "channel_id": -1002807012302},
-    "man": {"title": "Мангейм", "channel_id": -1002705598877},
-    "mrb": {"title": "Марбург/Гиссен", "channel_id": -1002488276982},
-    "han": {"title": "Ганновер", "channel_id": -1003131952570},
-    "wrz": {"title": "Вюрцбург", "channel_id": -1003893240209},
-    "kblz": {"title": "Кобленц", "channel_id": -1003607432320}, 
-    "dre": {"title": "Дрезден", "channel_id": -1002818128201},
+    "brl": {"title": "Берлин", "channel_id": -1003933261806},
 }
 
 USER_CITY: Dict[int, str] = {}
