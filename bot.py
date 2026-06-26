@@ -25,6 +25,17 @@ CITY_CONFIG = {
     "nur": {"title": "Нюрнберг", "channel_id": -1004389886335},
     "sak": {"title": "Саксония", "channel_id": -1003906942130},
     "ams": {"title": "Амстердам", "channel_id": -1003845982982},
+     "vena": {"title": "Вена", "channel_id": -1004302625252},
+    "prg": {"title": "Прага", "channel_id": -1003943491426},
+    "zur": {"title": "Цюрих", "channel_id": -1003757886135},
+     "bern": {"title": "Берн", "channel_id": -1003917440442},
+    "bas": {"title": "Базель", "channel_id": -1003952842054},
+    "jnv": {"title": "Женева", "channel_id": -1003975627678},
+    "thur": {"title": "Тюренген", "channel_id": -1004356907256},
+     "mkl": {"title": "Мекленберг", "channel_id": -1004472929654},
+    "anh": {"title": "Анхальт", "channel_id": -1004416690901},
+    "rain": {"title": "Райнланд", "channel_id": -1004313196946},
+     "shlz": {"title": "Шлезвиг-Гольштейн", "channel_id": -1003621411609},
 }
 
 USER_CITY: Dict[int, str] = {}
