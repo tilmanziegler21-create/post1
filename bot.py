@@ -22,6 +22,9 @@ ADMIN_USER_IDS: Set[int] = {int(x) for x in admin_env.split(",") if x.strip()}
 
 CITY_CONFIG = {
     "brl": {"title": "Берлин", "channel_id": -1003933261806},
+    "nur": {"title": "Нюрнберг", "channel_id": -1004389886335},
+    "sak": {"title": "Саксония", "channel_id": -1003906942130},
+    "ams": {"title": "Амстердам", "channel_id": -1003845982982},
 }
 
 USER_CITY: Dict[int, str] = {}
